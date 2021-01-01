@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mysoap", "mysoap.csproj", "{7B8604B4-6832-42E8-A5DF-156FF289712D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFSOAPClient", "..\WPFSOAPClient\WPFSOAPClient.csproj", "{B196C9D6-454E-42CD-B8A4-BA48A6D54312}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7B8604B4-6832-42E8-A5DF-156FF289712D} = {7B8604B4-6832-42E8-A5DF-156FF289712D}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B8604B4-6832-42E8-A5DF-156FF289712D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B8604B4-6832-42E8-A5DF-156FF289712D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B8604B4-6832-42E8-A5DF-156FF289712D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B8604B4-6832-42E8-A5DF-156FF289712D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B196C9D6-454E-42CD-B8A4-BA48A6D54312}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B196C9D6-454E-42CD-B8A4-BA48A6D54312}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B196C9D6-454E-42CD-B8A4-BA48A6D54312}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B196C9D6-454E-42CD-B8A4-BA48A6D54312}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {88624A1D-FD93-4AA6-9D6A-0ED3DB759ABB}
+	EndGlobalSection
+EndGlobal
